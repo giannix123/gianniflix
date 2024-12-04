@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gianniflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Gianniflix</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#film">Film</a></li>
+                <li><a href="#serie">Serie TV</a></li>
+                <li><a href="#account">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h1>Benvenuto su Gianniflix</h1>
+            <p>Guarda i tuoi film e serie TV preferiti, ovunque e in qualsiasi momento.</p>
+            <button>Guarda ora</button>
+        </section>
+
+        <section class="thumbnails">
+            <h2>Film in evidenza</h2>
+            <div class="row">
+                <img src="images/movie1.jpg" alt="Film 1">
+                <img src="images/movie2.jpg" alt="Film 2">
+                <img src="images/movie3.jpg" alt="Film 3">
+            </div>
+        </section>
+
+        <section class="thumbnails">
+            <h2>Serie TV popolari</h2>
+            <div class="row">
+                <img src="images/series1.jpg" alt="Serie 1">
+                <img src="images/series2.jpg" alt="Serie 2">
+                <img src="images/series3.jpg" alt="Serie 3">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Gianniflix - Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>

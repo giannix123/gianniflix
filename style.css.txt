@@ -1,0 +1,90 @@
+/* Impostazioni di base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #181818;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('images/banner.jpg') no-repeat center center / cover;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.banner button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Thumbnails */
+.thumbnails {
+    padding: 20px;
+}
+
+.thumbnails h2 {
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.row img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.row img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #181818;
+    margin-top: 20px;
+}
